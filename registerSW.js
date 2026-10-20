@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/bz-smart-manager/sw.js', { scope: '/bz-smart-manager/' })})}
